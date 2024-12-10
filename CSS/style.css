@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+   /*Header */
+.container {
+     height: 100vh;
+     background-color: rgb(70, 160, 225);
+}
+   /*nav */
+.nav {
+    background-color: rgb(42, 141, 183);
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo{
+    width: 5%;
+}
+.navlinks{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+   
+.nav1,.nav2 {
+    width: 30%;
+    display: flex; 
+    float: right;
+    justify-content: space-evenly;
+    
+   
+   }
+   .nav1>a, .nav2>a{
+   color: white;
+   }
+   .hero{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+   }
+   image{
+    height: 300vh;
+    width:200vh;
+   }
+   .lefthero, .righthero{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+   .lefthero>h1 {
+    font-size: 45px;
+    font-weight: 500;
+   }
+   .lefthero>h4{
+    font-size: 35px;
+   }
+   .btn {
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: azure;
+   }
+   /* .img1{
+    margin-left: 50px;
+   
+   }
+   .img2{
+    margin-right: 70px;
+   }
+   .img3{
+
+margin-right: 80px;
+   } */
+
+.imgs{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container2{
+    background-color: white;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ /* { 
+    height: 100px;
+    width: 100px;
+    border: 2px solid brown;
+    margin: 10px;
+} */
+   .div1{
+    
+    border: 2px solid black;
+    background-image: url(../images/image\ copy\ 4.png);
+    background-size: cover;
+    height: 50vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: italic;
+    color: burlywood;
+   }
+   .div2{
+    border: 2px solid black;
+    background-image: url(../images/image\ copy\ 6.png);
+    background-size: cover;
+    height: 50vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: italic;
+    color: burlywood;
+   }
+   .div3{
+    border: 2px solid black;
+    background-image: url(../images/image\ copy\ 7.png);
+    background-size: cover;
+    height: 50vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: italic;
+    color: burlywood;
+    
+   }
